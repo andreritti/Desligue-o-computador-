@@ -63,6 +63,26 @@
             text-align: center;
         }
 
+        /* Estilo do botão */
+        .btn {
+            display: inline-block;
+            padding: 10px 20px;
+            font-size: 16px;
+            color: #fff;
+            background-color: #333;
+            border: none;
+            border-radius: 5px;
+            text-align: center;
+            text-decoration: none;
+            transition: background-color 0.3s ease;
+            cursor: pointer;
+        }
+
+        .btn:hover {
+            background-color: #555;
+        }
+
+        /* Estilo para a seção de serviços */
         #servicos .servicos-container {
             display: flex;
             justify-content: space-around;
@@ -118,6 +138,7 @@
     <section id="sobre">
         <h2>Sobre Nós</h2>
         <p>Bem-vindo à Barbearia Estilo! Somos uma barbearia moderna, oferecendo os melhores cortes de cabelo e barba com estilo e precisão. Venha nos conhecer e transforme seu visual com nossos profissionais altamente qualificados.</p>
+        <a href="#contato" class="btn">Fale Conosco</a>
     </section>
 
     <!-- Galeria de Serviços -->
@@ -128,16 +149,19 @@
                 <h3>Corte de Cabelo</h3>
                 <img src="https://via.placeholder.com/150" alt="Corte de Cabelo">
                 <p>Cortes modernos e tradicionais para todos os estilos.</p>
+                <a href="#contato" class="btn">Agendar Serviço</a>
             </div>
             <div class="servico">
                 <h3>Barba</h3>
                 <img src="https://via.placeholder.com/150" alt="Barba">
                 <p>Design de barba com técnicas especiais para cada formato de rosto.</p>
+                <a href="#contato" class="btn">Agendar Serviço</a>
             </div>
             <div class="servico">
                 <h3>Tratamento Capilar</h3>
                 <img src="https://via.placeholder.com/150" alt="Tratamento Capilar">
                 <p>Cuidamos da saúde do seu cabelo com produtos de alta qualidade.</p>
+                <a href="#contato" class="btn">Agendar Serviço</a>
             </div>
         </div>
     </section>
@@ -148,6 +172,7 @@
         <p>Endereço: Rua dos Barbeiros, 123 - Centro</p>
         <p>Telefone: (11) 99999-9999</p>
         <p>Email: contato@barbeariaestilo.com.br</p>
+        <a href="#sobre" class="btn">Sobre Nós</a>
     </section>
 
     <!-- Rodapé -->
