@@ -1,1 +1,1 @@
-# barbearia2
+# barbearia2 https://barbearia2-cyan.vercel.app/
