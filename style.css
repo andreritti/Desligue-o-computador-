@@ -87,10 +87,6 @@ h2 {
     width: 30%;
 }
 
-.servico img {
-    max-width: 100%;
-    border-radius: 5px;
-}
 
 .servico h3 {
     margin: 10px 0;
@@ -108,5 +104,6 @@ footer {
 }.servico img {
     height: 300px;
     width: 200px;
+    border-radius: 5px;
 
 }
